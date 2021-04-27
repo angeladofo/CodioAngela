@@ -40,6 +40,6 @@ if should_encode:
 
     real_message[m] = chr(real_message[m]) 
   final_message = ''.join(real_message)
-  print(final_message)
+  print(final_message.upper())
 
 
